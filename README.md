@@ -1,5 +1,3 @@
-
-
 <img src="./images.png">
 
 # javaScript
@@ -13,7 +11,7 @@ _______________
 # if-шартгузорӣ
     
 3 роҳи сохтани condition мавҷуд аст.
-  * бо роҳи if else if else
+ * бо роҳи if else  if else
   * switch case
   * бо роҳи ternary operator
 
@@ -38,7 +36,9 @@ _______________
 функции declaration функцияи номдор мебошад ба воситаи номе ки гузошта мешавад файрот мекнем.
 
 # fuction expression
+
 <img src="./Снимок экрана 2025-01-08 141123.png">
+
 
   дар навбати худ ба ду гурух чудо мешавад.
 
@@ -105,5 +105,3 @@ console.log(user1);
     console.log(num1 + num2);
 })(2, 3);
 ```
-
-<img src="./images.png">
