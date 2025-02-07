@@ -243,7 +243,7 @@
 //     }
 //     return sum;
 // }
-// console.log(Mainfunction (811));
+// console.log(Mainfunction (897));
 
 // function Mainfunction(num)
 // {
@@ -287,4 +287,189 @@
 //     return true;
 // }
 // console.log(isprime(6));
+
+
+
+// function Mainfunction (num)
+// {
+// if(num==0)
+// {
+//     return 1;
+// }
+// else{
+//     return 0;
+// }
+// }
+// console.log(Mainfunction(0));
+
+// function Mainfunction(a,b)
+// {
+// let x=-(b/a);
+// return x;
+// }
+// console.log(Mainfunction (3,-6));
+
+// function  Mainfunction(a,b)
+// {
+// let num1=a*2;
+// let num2=b*3;
+// let sum=num1+num2;
+// return sum;
+// }
+// console.log(Mainfunction(1,1));
+
+// function Mainfunction(num)
+// {
+// if(num%2==0)return true
+// else return false
+// }
+// console.log(Mainfunction(9));
+
+// function Mainfunction(num)
+// {
+//     let cnt="";
+//     for(let i=num;i>0;i=Math.floor(i/10))
+//     {
+//         cnt+=i%10;
+ 
+//     }
+//     if(num>cnt) return true
+//     else return false
+
+// }
+// console.log(Mainfunction(27));
+
+
+
+
+
+
+// function Mainfunction (a,b)
+// {
+//     if(a+b==10 || a==10 || b==10)
+//     {
+//         return true
+//     }
+//     else return false
+//     }
+// console.log(Mainfunction(1,9));
+
+// function Mainfunction (a,b)
+// {
+//     if((a+b)%2==0)
+//     {
+//         return false
+//     }
+//     else return true
+// }
+// console.log(Mainfunction(2,9));
+// function Mainfunction(a,b)
+// {
+// return Math.pow(a,b);
+// }
+// console.log(Mainfunction(5,5));
+
+// function Mainfunction (num)
+// {
+//     let cnt="";
+//     for(let i=num;i>0;i=Math.floor(i/10))
+//     {
+//         cnt+=i%10;
+//     }
+//     if(cnt>num) return false
+//     else return true
+// }
+// console.log(Mainfunction(43));
+// function Mainfunction (num)
+// {
+//     let cnt=1;
+//     for(let i=1;i<=num;i++)
+//     {
+//         cnt*=i;
+//     }
+//     return cnt;
+// }
+// console.log(Mainfunction(4));
+
+// function Mainfunction(num)
+// {
+//     let sum=0;
+//     for(let i=num;i>0;i=Math.floor(i/10))
+//     {
+//         sum+=i%10;
+//     }
+//     return sum;
+// }
+// console.log(Mainfunction(12345));
+// function Mainfunction(num)
+// {
+// let cnt=num*10;
+// if(cnt<100)
+// {
+//     return 100;
+// }
+// else{
+// return cnt;
+// }
+
+// }
+// console.log(Mainfunction(2));
+
+// function isPrime(num) {
+//     if (num <= 1) return false;
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//         if (num % i === 0) return false;
+//     }
+//     return true;
+// }
+// function Mainfunction(a, b) {
+//     for (let i = a; i <= b; i++) {
+//         if (isPrime(i)) return true;
+//     }
+//     return false;
+// }
+// console.log(Mainfunction(10, 15)); 
+// console.log(Mainfunction(62, 66)); 
+
+// function Mainfunction (num)
+// {
+//     let sum=0;
+//     for(let i=1;i<=num;i++)
+//     {
+//      sum+=Math.pow(i,2);
+//     }
+//     return sum;
+// }
+// console.log(Mainfunction(4));
+
+// function gcd(a, b) {
+//         if (b === 0) return a;
+//         return gcd(b, a % b);
+//     }
+//     console.log(gcd(3, 5));
+// function Mainfunction(n) {
+//     let result = "";
+//     for (let i = 1; i <= 10; i++) {
+//         result += ((n * i) + 1);
+//         if (i < 10) {
+//             result += ", ";
+//         }
+//     }
+//     return result;
+// }
+// console.log(Mainfunction(1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
