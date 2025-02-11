@@ -459,6 +459,219 @@
 // }
 // console.log(Mainfunction(1));
 
+///classtask
+///1
+// function strDiapozone(num)
+// {
+//     let res = ""
+    
+//     for (let i = 1; i <= num; i++) {
+//         res += i
+//         if (i < num) { 
+//             res += ", "
+//         }
+//     }
+    
+//     return res
+// }
+
+// console.log( strDiapozone(5));
+///2
+// function isPalindrom(num) {
+//     let res = "";
+//     for (let i = num; i > 0; i = Math.floor(i / 10)) {
+//         res += i % 10;
+//     }
+//     return num == res && isPrime(num);
+// }
+
+// function isPrime(num) {
+//     if (num <= 1) return false;
+//     for (let i = 2; i < num; i++) {
+//         if (num % i == 0) return false;
+//     }
+//     return true;
+// }
+
+// console.log(isPalindrom(101)); 
+///3
+// function mmRadom(a,b)
+// {
+// for(let i=a;i<=b;i++)
+// {
+//     return Math.floor(Math.random(i)*10);
+// }
+// }
+// console.log(mmRadom(1, 10));
+
+
+
+
+
+///5
+// function strDiapozone(a,b)
+// {
+//     let res = ""
+    
+//     for (let i = a; i <= b; i++) {
+//         res += i
+//         if (i < b) { 
+//             res += ", "
+//         }
+//     }
+    
+//     return res
+// }
+
+// console.log( strDiapozone(10,12));
+
+///4
+// function superSearch(num, num1) {
+//     let result = 0;
+//     let cnt = 1;
+
+//     for (; num > 0; ) {
+//         let okhironraqam = num % 10;
+//         if (okhironraqam !== num1) {
+//             result = result + (okhironraqam * cnt);
+//             cnt = cnt * 10;
+//         }
+//         let raqamiokhir = Math.floor(num / 10);
+//         num = raqamiokhir - (raqamiokhir % 1); 
+//     }
+
+//     return result;
+// }
+// console.log( superSearch(4543, 4)); 
+
+//6
+// function calculator(num1, operator, num2) {
+//     if (operator === '+') {
+//         return num1 + num2;
+//     } else if (operator === '-') {
+//         return num1 - num2;
+//     } else if (operator === '*') {
+//         return num1 * num2;
+//     } else if (operator === '/') {
+//         return num2 !== 0 ? num1 / num2 : 'Error: Ба нол таксим намешавад';
+//     } else if (operator === '%') {
+//         return num2 !== 0 ? num1 % num2 : 'Error: Ба нол таксим намешавад';
+//     } else {
+//         return 'Error: оператори ғайриқобили қабул';
+//     }
+// }
+// console.log(calculator(1, '+', 3)); 
+
+
+
+///8
+
+// function Mainfunction (num)
+// {
+// if(num==5)
+// {
+//     return "Great";
+// }
+//  else if (num==4)
+// {
+//     return "Good";
+// }
+// else{
+//     return "Will Do";
+
+// }
+// }
+// console.log(Mainfunction(3));
+
+///9
+
+///7
+///10
+
+
+////hometask
+///1
+///2
+// function Mainfunction()
+// {
+//     let randomniy=Math.floor(Math.random() * 1000);
+// let cnt="";
+// for(let i=randomniy;i>0;i=Math.floor(i/10))
+// {
+//     cnt+=i%10;
+// }
+// return cnt==randomniy;
+
+// }
+// console.log(Mainfunction());
+
+//3
+// function Mainfunction(a,b)
+// {
+//     let cnt=0;
+//     for(let i=a;i>0;i=Math.floor(i/10))
+//     {
+//        if(i%10==b)
+//        {
+//         cnt++;
+//        }
+//     }
+//     return cnt;
+
+// }
+// console.log(Mainfunction(4,4));
+///4
+
+///5
+// function Ruler(a,b)
+// {
+//     let res = "";
+    
+//     for (let i = a; i <= b; i++) {
+//         res += i+"cm";
+//         if (i < b) { 
+//             res += ", ";
+//         }
+//     }
+    
+//     return res
+// }
+
+// console.log(Ruler(8,11));
+///6
+// function getLastDayOfFebruary(year) {
+  
+//     let isLeapYear = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+  
+//     return isLeapYear ? 29 : 28;
+//   }
+//   console.log(getLastDayOfFebruary(2024)); 
+
+  //7
+//   function converter (val1, val2, val3, val4)
+//   {
+//     return val1/val4;
+//   }
+// console.log(converter(1000, "tjs", "usd", 10));
+///8
+// function bblSort(arr) {
+
+//     for (let i = 0; i < arr.length; i++) {
+      
+//         for (let j = 0; j < (arr.length - i - 1); j++) {
+
+          
+//             if (arr[j] > arr[j + 1]) {
+
+             
+//                 let temp = arr[j]
+//                 arr[j] = arr[j + 1]
+//                 arr[j + 1] = temp
+//             }
+//         }
+//     }
+// }
+//     console.log(bblSort(312));
 
 
 
@@ -470,3 +683,46 @@
 
 
 
+// function infConv(num1, num2, num3){
+//       let res;
+//       if(num2 == "bit"){
+//           res = num1;
+//       }
+//       else if(num2 == "byte"){
+//           res = num1 * 8;
+//       }
+//       else if(num2 == "kb"){
+//           res = num1 * 8 * 1024;
+//       }
+//       else if(num2 == "mb"){
+//           res = num1 * 8 * 1024 * 1024;
+//       }
+//       else if(num2 == "gb"){
+//           res = num1 * 8 * 1024 * 1024 * 1024;
+//       }
+  
+//       let result;
+//       if(num3 == "bit"){
+//           result = res;
+//       }
+//       else if(num3 == "byte"){
+//           result = res / 8;
+//       }
+//       else if(num3 == "kb"){
+//           result = res / (8 * 1024);
+//       }
+//       else if(num3 == "mg"){
+//           result = res / (8 * 1024 * 1024);
+//       }
+//       else if(num3 == "gb"){
+//           result = res / (8 * 1024 * 1024 * 1024);
+//       }
+//       return result;
+//   };
+//   console.log(infConv(2, "mb", "kb"));
+// function gcd(a,b)
+// {
+//   if(b==0) return a;
+//   return gcd(b,a%b)
+// }
+// console.log(gcd(14,8));
