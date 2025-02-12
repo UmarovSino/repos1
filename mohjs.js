@@ -684,21 +684,21 @@
 
 
 // function infConv(num1, num2, num3){
-//       let res;
+//       let cnt;
 //       if(num2 == "bit"){
-//           res = num1;
+//           cnt = num1;
 //       }
 //       else if(num2 == "byte"){
-//           res = num1 * 8;
+//           cnt = num1 * 8;
 //       }
 //       else if(num2 == "kb"){
-//           res = num1 * 8 * 1024;
+//           cnt= num1 * 8 * 1024;
 //       }
 //       else if(num2 == "mb"){
-//           res = num1 * 8 * 1024 * 1024;
+//           cnt = num1 * 8 * 1024 * 1024;
 //       }
 //       else if(num2 == "gb"){
-//           res = num1 * 8 * 1024 * 1024 * 1024;
+//           cnt = num1 * 8 * 1024 * 1024 * 1024;
 //       }
   
 //       let result;
@@ -720,6 +720,8 @@
 //       return result;
 //   };
 //   console.log(infConv(2, "mb", "kb"));
+
+
 // function gcd(a,b)
 // {
 //   if(b==0) return a;
