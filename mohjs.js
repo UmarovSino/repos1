@@ -1146,6 +1146,308 @@
 
 
 
+/////array
+///1
+// function sumofArray(num)
+// {
+// let cnt=0;
+// for (const element of num) {
+//   cnt+=element;
+// }
+// return cnt;
+// }
+// console.log(sumofArray([1,2,3,4,5]));
+
+///2
+// function  maxNum(num)
+// {
+// let cnt=-Infinity;
+// for (const element of num) {
+//   if(element>cnt)
+//   {
+//     cnt=element;
+//   }
+// }
+// return cnt;
+// }
+// console.log( maxNum([3, 8, 1, 6, 2]));
+
+
+////3
+// function  evenCount(num)
+// {
+// let cnt=0;
+// for (const element of num) {
+//   if(element%2==0)
+//   {
+//     cnt++;
+//   }
+// }
+// return cnt;
+// }
+// console.log( evenCount([2,4,6,8]));
+////4'
+// function isPresent(a,b)
+// {
+//   return a.includes(b)
+// }
+
+// console.log( isPresent([10, 20, 30, 40, 50], 30));
+////5
+// function arithmetic(num)
+// {
+//   let cnt=0;
+//   let sum=0;
+//   for (const element of num) {
+//     sum+=element;
+//     cnt++;
+//   }
+//   return sum/cnt;
+// }
+
+// console.log(arithmetic([2,4]));
+
+
+
+////classtask
+///1
+// function getFirstValue(num)
+// {
+// let a=num.shift();
+// return a;
+// }
+// console.log(getFirstValue([80,4,232]));
+
+///2
+// function  makePair(num,num1)
+// {
+// return [num,num1]
+// }
+// console.log(makePair(3, 4));
+
+///3
+// function reversed(num)
+// {
+// return num.toReversed();
+// }
+// console.log(reversed([1, 2, 3, 4]));
+////4
+// function incrementItems(num) {
+//   for (let i = 0; i < num.length; i++) { 
+//       num[i] = num[i] + 1;
+//   }
+//   return num;
+// }
+
+// console.log(incrementItems([0, 1, 2, 3])); 
+///5
+// function  getLastItem(num)
+// {
+// for(let i=0;i<num.length;i++)
+// {
+//   return num[num.length-1]
+// }
+// }
+// console.log(getLastItem([true,false,true]));
+///6
+  // function Mainfunction(num)
+  // {
+  //  return num.join('');
+  // }
+  // console.log(Mainfunction(["a", "b", "c", "d", "e", "f"]));
+  
+///7
+
+// function check(num,num1)
+// {
+//   return num.includes(num1);
+// }
+// console.log(check([1, 1, 2, 1, 1], 3));
+///8
+
+// function findIndex(num,num1)
+// {
+//   return num.indexOf(num1);
+// }
+// console.log( findIndex(["Red", "blue", "Blue", "Green"], "blue"));
+///9
+// function concats(num,num1)
+// {
+//   return num.concat(num1);
+
+// }
+// console.log( concats([1, 3, 5], [2, 6, 8]));
+///10
+// function convertToNumbers(arr) {
+//   let result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//       result.push(Number(arr[i]));
+//   }
+//   return result;
+// }
+// console.log(convertToNumbers(["1", "2", "3.5", "4"]));
+
+
+
+////hometask
+///1
+// function combineArrays(...arrays) {
+//   let result = [];
+//   for (let i = 0; i < arrays.length; i++) {
+//       let array = arrays[i];
+//       for (let j = 0; j < array.length; j++) {
+//           result.push(array[j]);
+//       }
+//   }
+//   return result;
+// }
+// console.log(combineArrays([1,2],[3,3],[4,4]));  
+
+
+// function rests(...rest)
+// {
+//   return [].concat(...rest);
+
+// }
+
+// console.log(rests([1,2],[3,3],[4,4]));
+
+///2
+// function Mainfunction(num,num1)
+// {
+// return num.indexOf(num1);
+// }
+// console.log( Mainfunction([3,4,5,3,1,5,5,5,7,6], 5));
+////3
+
+// function takror(num)
+// {
+//   let arr=[];
+//   for(let i=0;i<num.length;i++)
+//   {
+//     if(num.indexOf(num[i])==i)
+//     {
+//       arr.push(num[i]);
+//     }
+//   }
+//   return arr;
+// }
+// console.log(takror([1,2,3,2,1,4,5,5,4]));
+////4
+// function removeNegatives(num)
+// {
+// let cnt=[];
+// for(let i=0;i<num.length;i++)
+// {
+//   if(num[i]>0)
+//   {
+//    cnt.push(num[i]);
+//   }
+// }
+// return cnt;
+// }
+// console.log( removeNegatives([-1, 2, -3, 4, -5]));
+///5
+// function average(num)
+// {
+//   let cnt=0;
+//   let sum=0;
+//   for (const element of num) {
+//     sum+=element;
+//     cnt++;
+//   }
+//   return sum/cnt;
+// }
+// console.log(average([1,2,3,4,5]));
+////6
+
+// function isPalindromeArray(num)
+// {
+// return num.toReversed().join()==num.join();
+
+// }
+// console.log( isPalindromeArray([1, 3, 5, 2, 1]));
+/////7
+
+// function arrBeetqeen(num1,num2,arr)
+// {
+// let cnt=[];
+// for(let i=0;i<arr.length;i++)
+// {
+//   let elementho=arr[i];
+//   if(elementho>num1 && elementho<num2)
+//   {
+//     cnt.push(arr[i]);
+//   }
+// }
+// return cnt;
+// }
+// console.log(arrBeetqeen(1, 10, [1, 10, 25, 8, 11, 6]));
+
+
+
+
+
+
+
+////8
+// function  sumArray(num)
+// {
+//   let cnt=0;
+//   for (const element of num) {
+//     cnt+=element;
+//   }
+//   return cnt;
+// } 
+
+// console.log( sumArray([1, 2, 3, 4, 5]))
+////9
+// function getValueTypes(array) {
+//   let typesArray = [];
+//   for (let i = 0; i < array.length; i++) {
+//       typesArray.push(typeof array[i]);
+//   }
+//   return typesArray;
+// }
+// console.log(getValueTypes([1, 2, "null", []]));
+
+
+
+////10
+// function wordLength(num)
+// {
+//   let cnt=[];
+// for (const element of num) {
+//   cnt.push(element.length);
+// }
+// return cnt;
+// }
+// console.log(wordLength(["Halloween", "Thanksgiving", "Christmas"]));
+
+////11
+// function Mainfunction(numbers) {
+//   if (numbers.length != 2) {
+//       return false;
+//   }
+//   let firstNumber = numbers[0];
+//   let secondNumber = numbers[1];
+//   return Math.sqrt(firstNumber) == Math.cbrt(secondNumber);
+// }
+// console.log(Mainfunction([4,8])); 
+
+
+////12
+
+// function  invertArray(num)
+// {
+// let cnt=[];
+// for(let i=0;i<num.length;i++)
+// {
+//     cnt.push(num[i]*(-1))
+// }
+// return cnt;
+// }
+// console.log(invertArray([1,-2,3,4,5]));
 
 
 
@@ -1157,6 +1459,161 @@
 
 
 
+////13
+// function getMultipliedArr(num)
+// {
+// let cnt=[];
+// for(let i=0;i<num.length;i++)
+// {
+//   cnt.push(num[i]*2);
+// }
+// return cnt;
+// }
+// console.log( getMultipliedArr([1, 86, -5]));
 
 
+////14
+// function sumFive(num)
+// {
+// sum=0;
+// for(let i=0;i<num.length;i++)
+// {
+//   if(num[i]>5)
+//   {
+// sum+=num[i];
+
+//   }
+
+// }
+// return sum;
+// }
+// console.log( sumFive([1, 2, 3, 4]));
+
+////15
+// function filterIntegers(arr) {
+//   let result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//       let element = arr[i];
+//       if (typeof element == 'number' ) {
+//           result.push(element);
+//       }
+//   }
+//   return result;
+// }
+// console.log(filterIntegers([1, 'hello', 3.14, 42, 'world', 7]));  
+
+
+
+
+// function minMax(num)
+// {
+// let result=[];
+// let min=Infinity;
+// let max=-Infinity;
+// for(let i=0;i<num.length;i++)
+// {
+//   if(num[i]<min) min=num[i];
+// if(num[i]>max) max=num[i];
+
+// }
+// result.push(min,max);
+// return result;
+// }
+// console.log(minMax([1,2,3,4,5]));
+
+
+// function canNest(arr1,arr2)
+// {
+// let arr1Min=Math.min(...arr1);
+// let arr1Max=Math.max(...arr1);
+// let arr2Min=Math.min(...arr2);
+// let arr2Max=Math.max(...arr2);
+// return arr1Min>arr2Min && arr1Max<arr2Max;
+
+// }
+// console.log(canNest([1, 2, 3, 4], [0, 6]));
+
+
+// function seriesResistance(num)
+// {
+//   cnt=0;
+//   for (const element of num) {
+//     cnt+=element;
+//   }
+//   return `${cnt} ohms`;
+// }
+
+// console.log(seriesResistance([16, 3.5, 6]));
+
+// function arrayOfsum(num,length)
+// {
+// let result=[];
+
+// for(let i=1; i<=length;i++)
+// {
+// result.push(i*num);
+
+// }
+// return result;
+// }
+// console.log(arrayOfsum([7,5]));
+
+
+// function Mainfunction(num)
+// {
+// return num.filter((el,i)=>(num.indexOf(el)==i))
+// }
+// console.log(Mainfunction([1,2,3,4,5,6,7,8,8,9,9,8,8,7,6,6,5,4,4,3,3]));////udaleniye dublikatov
+
+// function strTosorted(str)
+// {
+//   return str.toSorted();
+// }
+// console.log(strTosorted(["hello","world","Ahmad"]));
+
+// function strTosorted(str)
+// {
+//   return str.toSorted(((a,b)=>a-b));
+// }
+// console.log(strTosorted([1,2,3,4,5,6,7,6,5,4,3,3,3,2,8,9,10,11,12]));
+
+// function nameS(num)
+// {
+// let nums=num.map((name) => {
+//   return name.charAt(0).toUpperCase()+name.slice(1).toLowerCase();
+// })
+// return nums;
+// }
+// console.log(nameS(["uMAESDF","sImF","adssfsdfs","sfklkfmgd"]));
+
+
+// function battingAvg(...num) {
+//   let totalHits = 0;
+//   let totalAtBats = 0;
+
+//   for (let i = 0; i < num[0].length; i++) {
+//     totalHits += num[0][i][0];
+//     totalAtBats += num[0][i][1];
+//   }
+
+//   if (totalAtBats === 0) {
+//     return 0;
+//   }
+
+//   return totalHits / totalAtBats;
+// }
+
+// console.log(battingAvg([[0, 0], [1, 3], [2, 2], [0, 4], [1, 5]])); 
+
+
+
+
+let car={
+  name:"Toyota",
+  model:"camry",
+  year:2021,
+price:12345
+}
+
+console.log(car.name,car.model,car.year,car.price);
 
