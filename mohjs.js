@@ -1608,12 +1608,174 @@
 
 
 
-let car={
-  name:"Toyota",
-  model:"camry",
-  year:2021,
-price:12345
-}
+// let car={
+//   name:"Toyota",
+//   model:"camry",
+//   year:2021,
+// price:12345,
+// weight:"332kg",
+// }
+// let information=`car name: ${car.name}
+//  car model: ${car.model} 
+//  car year: ${car.price} 
+// car weigth: ${car.weight}.`;
+// console.log(information);
 
-console.log(car.name,car.model,car.year,car.price);
+// let nameOfcars={
+// names:'mersedes',
+// scores:[1,2,3,4,5,6,7,8,9,0,0],
+// avg:()=>{
+//   let cnt=0;
+//   for (const element of nameOfcars.scores) {
+//     cnt+=element;
+//   }
+// return cnt;
+// }
+
+// }
+// delete nameOfcars.names
+// console.log(nameOfcars);
+
+
+
+
+
+
+
+////classtask
+///1
+// function formatPerson(person)
+// {
+//   return `${person.name} is ${person.age} years old and lives in ${person.location}.`
+// }
+
+
+// console.log( formatPerson({ name: "John", age: 30, location: "New York" }));
+
+
+////2
+
+// function getVoteCount(num)
+// {
+// return num.upvotes-num.downvotes;
+// }
+// console.log( getVoteCount({ upvotes: 13, downvotes: 0 }));
+/////3
+
+// function getTotalPrice(items) {
+//   return items.reduce((acc, item) => acc + item.price, 0);
+// }
+
+// console.log(getTotalPrice([{ name: "Book", price: 10 }, { name: "Pen", price: 2 }, { name: "Notebook", price: 5 }]));
+
+/////4
+
+// function getAge(num)
+// {
+// return 2024-num.birthYear;
+// }
+// console.log( getAge({ firstName: "John", lastName: "Doe", birthYear: 1990 }) );
+
+/////5
+// function summarizeBook(num) {
+//   let rating = () => {
+//       let cnt = 0;
+//       for (const element of num.ratings) {
+//           cnt += element;
+//       }
+//       return cnt / num.ratings.length; 
+//   };
+//   return `${num.title} by ${num.author} has an average rating of ` + rating() + "."; 
+// }
+
+// console.log(summarizeBook({ title: "The Great Gatsby", author: "F. Scott Fitzgerald", ratings: [5, 4, 5, 3, 4] }));
+
+
+////hometask
+////5
+// function uppercaseKeys(obj) {
+//   const result = {};
+//   for (const key in obj) {
+//     result[key.toUpperCase()] = obj[key];
+//   }
+//   return result;
+// }
+
+// console.log(uppercaseKeys({a: 1, b: 2})); 
+
+
+
+
+/////1
+// function countProperties(obj) {
+//   return Object.keys(obj).length;
+// }
+// console.log(countProperties({ name: "Alice", age: 25, city: "Wonderland" })); 
+
+///2
+//   function getProperty(obj, propName) {
+//     return obj[propName];
+//   }
+// console.log( getProperty({name: "Alice", age: 25}, "name"));
+////3
+// function deleteProperty(obj, propName) {
+//   delete obj[propName];
+//   return obj;
+// }
+// console.log(deleteProperty({a: 1, b: 2, c: 3}, "b"));
+
+////3
+// function sortObjectKeys(obj) {
+//   let sortedKeys = Object.keys(obj).toSorted();
+//   let sortedObj = {};
+//   for (const key of sortedKeys) {
+//     sortedObj[key] = obj[key];
+//   }
+//   return sortedObj;
+// }
+
+// console.log(sortObjectKeys({a:1,c:4,b:3})); 
+
+
+
+
+
+
+
+// function deleted(num,a)
+// {
+//   delete num[a];
+//   return num;
+// }
+// console.log(deleted({name: 1, age: 2, scores: 3}, "scores"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////5 метод объектро дар хона дидан 
+/////structuredClone
+
+
+// let person={
+//   name:"Sino",
+//   Age:32,
+//   scores:22,
+// }
+// let{name,Age,scores}=person
+// console.log();
+
+
+
 

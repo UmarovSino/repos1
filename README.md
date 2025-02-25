@@ -188,3 +188,34 @@ JavaScript ҳамеша рамзгузории UTF-16-ро барои сатрҳ
 Сатр дорои усулҳои зиёде барои иҷрои амалҳои гуногун дар сатр мебошад. Мо дар боло баъзеи онҳоро баррасӣ кардем. Инҳоянд: concat(), at(), slice() ва дигарон. Акнун биёед бубинем, ки кадом усулҳои ҷолиби дигар дар String барои кор бо сатрҳо мавҷуданд.
 
 <img src="Снимок экрана 2025-02-15 180635.png">
+
+## lecture 8 
+* Object 
+* Destructuring ,spread
+* "`this`" keyword 
+* Call,apply,bind
+
+______
+
+<img src="Снимок экрана 2025-01-27 174438.png">
+
+
+
+An object is a collection of properties and a property is an association between a name (or key) and a value.
+
+
+<img src="Снимок экрана 2025-01-27 174634.png">
+
+## Create object{}
+
+Java script object are a nonprimitive data-type that allows you to store multiple collections of data.Object in js are represented as key-value pairs.
+
+
+## Object methods
+
+* Object.keys()
+* object values()
+* object.entries()
+_____
+
+<img src="Снимок экрана 2025-01-27 175039.png">
